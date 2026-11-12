@@ -1,0 +1,8 @@
+scss
+---
+---
+@import "{{ site.theme }}";
+
+header h1, header p.view, .project-name, .btn {
+  display: none !important;
+}
