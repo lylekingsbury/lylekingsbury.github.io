@@ -1,1 +1,45 @@
-theme: jekyll-theme-minimal
+# ---------------------------------------------------------------
+#  Site settings for https://lylekingsbury.github.io
+#  (changes to this file need a fresh GitHub Pages build to show)
+# ---------------------------------------------------------------
+
+title: Lyle Kingsbury
+description: >-
+  Neuroscientist. Postdoctoral Researcher and Helen Hay Whitney Fellow
+  in the Department of Molecular and Cellular Biology, Harvard University.
+author: Lyle Kingsbury
+email: lylekingsbury@fas.harvard.edu
+lang: en_US
+
+url: "https://lylekingsbury.github.io"
+baseurl: ""
+
+# Theme: Minima is built into GitHub Pages, so no extra setup is needed.
+theme: minima
+
+# Social links shown as icons in the footer. Uncomment and fill in the
+# ones you want (use usernames only, not full URLs).
+github_username: lylekingsbury
+# twitter_username: lylekingsbury
+# linkedin_username:
+
+minima:
+  date_format: "%b %-d, %Y"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Stop GitHub Pages from turning the first heading of index.md into the
+# page title (which would add a stray "About" link to the header).
+titles_from_headings:
+  enabled: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
