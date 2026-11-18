@@ -15,16 +15,9 @@ url: "https://lylekingsbury.github.io"
 baseurl: ""
 
 # Theme: Minima is built into GitHub Pages, so no extra setup is needed.
+# index.md hides Minima's header and footer and draws its own page; Minima
+# still supplies the <head>, SEO tags and base styles.
 theme: minima
-
-# Social links shown as icons in the footer. Uncomment and fill in the
-# ones you want (use usernames only, not full URLs).
-github_username: lylekingsbury
-# twitter_username: lylekingsbury
-# linkedin_username:
-
-minima:
-  date_format: "%b %-d, %Y"
 
 plugins:
   - jekyll-feed
